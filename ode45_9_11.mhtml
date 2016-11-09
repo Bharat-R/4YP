@@ -1,0 +1,271 @@
+From: <Saved by Blink>
+Subject: ode45_9_11
+Date: Thu, 9 Nov 2016 13:06:12 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Rpx4a5tDFj5u5bktkReqgCyNrRGo5Xn0Sv20XQsJdo----"
+
+------MultipartBoundary--Rpx4a5tDFj5u5bktkReqgCyNrRGo5Xn0Sv20XQsJdo----
+Content-Type: text/html
+Content-ID: <frame-524-35ce9f2d-08c7-44c2-be3c-c3d9af29f899@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://matlab.mathworks.com/users/xenivilioux/Published/ode45_9_11/index.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+     =20
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>ode45_9_11</title><meta name=3D"generator" content=3D"MATLA=
+B 9.1"><link rel=3D"schema.DC" href=3D"http://purl.org/dc/elements/1.1/"><m=
+eta name=3D"DC.date" content=3D"2016-11-09"><meta name=3D"DC.source" conten=
+t=3D"ode45_9_11.m"><style type=3D"text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,=
+a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,s=
+mall,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,f=
+orm,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:=
+0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:tran=
+sparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}b=
+lockquote:before,blockquote:after,q:before,q:after{content:'';content:none}=
+:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}t=
+able{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-ser=
+if; font-size:10px; color:#000; line-height:140%; background:#fff none; ove=
+rflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-s=
+erif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal;=
+ }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-se=
+rif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; borde=
+r-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-se=
+rif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }=20
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7;=
+ }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:=
+100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px=
+ dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; colo=
+r:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border:=
+ 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px=
+ solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class=3D"content"><h1></h1><!--introduction--><=
+!--/introduction--><h2>Contents</h2><div><ul><li><a href=3D"https://matlab.=
+mathworks.com/users/xenivilioux/Published/ode45_9_11/index.html#1">SOLVE  s=
+tate space formulation of linear 2d mass spring damper system %%%</a></li><=
+li><a href=3D"https://matlab.mathworks.com/users/xenivilioux/Published/ode4=
+5_9_11/index.html#2">Create output (y) matrix %%%</a></li></ul></div><h2 id=
+=3D"1">SOLVE  state space formulation of linear 2d mass spring damper syste=
+m %%%</h2><pre class=3D"codeinput"><span class=3D"keyword">function</span> =
+ode45_9_11
+
+clear <span class=3D"string">all</span>
+
+<span class=3D"comment">% d2x =3D -(2=CE=BE=CF=89)dx - (=CF=89^2)x - d2y</s=
+pan>
+<span class=3D"comment">% where =CF=89 =3D 2=CF=80/T, =CF=89^2=3Dk/m, 2=CE=
+=BE=CF=89 =3D c/m</span>
+<span class=3D"comment">% initial conditions: x1,2(0) =3D (1,0), x'1,2(0) =
+=3D 0</span>
+
+t=3D0:0.01:1;   <span class=3D"comment">% time scale</span>
+
+x0 =3D [1 0 0 0]'; <span class=3D"comment">% initial conditions</span>
+
+T =3D 0.1;
+E =3D 0.05;         <span class=3D"comment">% =CE=BE</span>
+
+w =3D 2*pi/T;       <span class=3D"comment">% =CF=89</span>
+cm =3D 2*E*w;       <span class=3D"comment">% c/m</span>
+km =3D w^2;         <span class=3D"comment">% k/m</span>
+
+[t,x]=3Dode45( @(t,x)sys(t,x), t, x0 );
+
+<span class=3D"comment">% d2y =3D [d2y; d2y; d2y; d2y]; % ground accelerati=
+on (define later, but same dims as x)</span>
+
+plot(t,x);
+legend(<span class=3D"string">'x1'</span>,<span class=3D"string">'x2'</span=
+>, <span class=3D"string">'dx1'</span>, <span class=3D"string">'dx2'</span>=
+);
+xlabel(<span class=3D"string">'t'</span>); ylabel(<span class=3D"string">'x=
+'</span>);
+
+    <span class=3D"keyword">function</span> dx=3Dsys(t,x)
+        A =3D [0 0 1 0;
+             0 0 0 1;
+             -2*km 1*km -2*cm 1*cm;
+             1*km -1*km 1*cm -1*cm];
+
+        B =3D [0; 0; -1; -1];
+
+        dx =3D A*x + B.*x;    <span class=3D"comment">% Need to change B.*x=
+ to B*d2y</span>
+    <span class=3D"keyword">end</span>
+</pre><h2 id=3D"2">Create output (y) matrix %%%</h2><p>y =3D Cx + Du where =
+u =3D d2y y needs: x1,x2  d2x1,d2x2(relative), d2(x1+y),d2(x2+y)(absolute)<=
+/p><pre class=3D"codeinput">Cxtemp =3D [1 0 0 0;
+         0 1 0 0];     <span class=3D"comment">% x1,x2 portion of C</span>
+
+Cd2xtemp =3D [A(3,:);
+           A(4,:)];  <span class=3D"comment">% d2x1,d2x2(relative/absolute)=
+ portions of C</span>
+
+Dutemp =3D [B(3,:);
+         B(4,:)];    <span class=3D"comment">% d2(x1+y),d2(x2+y)(absolute) =
+portion of D</span>
+
+C =3D [Cxtemp; Cd2xtemp; Cd2xtemp];
+D =3D [0 0 0 0 Dutemp']';
+
+<span class=3D"comment">% size(x);</span>
+
+<span class=3D"comment">% temp =3D C*x;</span>
+<span class=3D"comment">% size(temp)</span>
+
+y =3D C*x + D.*(C*x);       <span class=3D"comment">% Need to change D.*(C*=
+x) to D*d2y</span>
+
+plot(t,y);
+legend(<span class=3D"string">'x1'</span>,<span class=3D"string">'x2'</span=
+>,<span class=3D"string">'rel d2x1'</span>,<span class=3D"string">'rel d2x2=
+'</span>,<span class=3D"string">'abs d2x1'</span>,<span class=3D"string">'a=
+bs d2x2'</span>);
+xlabel(<span class=3D"string">'t'</span>); ylabel(<span class=3D"string">'y=
+'</span>);
+
+<span class=3D"keyword">end</span>
+</pre><pre class=3D"codeoutput error">Error using *
+Inner matrix dimensions must agree.
+
+Error in ode45_9_11 (line 62)
+y =3D C*x + D.*(C*x);       % Need to change D.*(C*x) to D*d2y
+</pre><p class=3D"footer"><br><a href=3D"http://www.mathworks.com/products/=
+matlab/">Published with MATLAB=C2=AE R2016b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%% SOLVE  state space formulation of linear 2d mass spring damper system %=
+%%
+
+function ode45_9_11=20
+
+clear all=20
+
+% d2x =3D -(2=CE=BE=CF=89)dx - (=CF=89^2)x - d2y
+% where =CF=89 =3D 2=CF=80/T, =CF=89^2=3Dk/m, 2=CE=BE=CF=89 =3D c/m
+% initial conditions: x1,2(0) =3D (1,0), x'1,2(0) =3D 0=20
+
+t=3D0:0.01:1;   % time scale=20
+=20
+x0 =3D [1 0 0 0]'; % initial conditions
+
+T =3D 0.1;
+E =3D 0.05;         % =CE=BE=20
+
+w =3D 2*pi/T;       % =CF=89
+cm =3D 2*E*w;       % c/m
+km =3D w^2;         % k/m
+
+[t,x]=3Dode45( @(t,x)sys(t,x), t, x0 );=20
+
+% d2y =3D [d2y; d2y; d2y; d2y]; % ground acceleration (define later, but sa=
+me dims as x)
+
+plot(t,x);
+legend('x1','x2', 'dx1', 'dx2');
+xlabel('t'); ylabel('x');=20
+=20
+    function dx=3Dsys(t,x)=20
+        A =3D [0 0 1 0;
+             0 0 0 1;
+             -2*km 1*km -2*cm 1*cm;
+             1*km -1*km 1*cm -1*cm];
+        =20
+        B =3D [0; 0; -1; -1];
+       =20
+        dx =3D A*x + B.*x;    % Need to change B.*x to B*d2y
+    end
+
+%%% Create output (y) matrix %%%
+% y =3D Cx + Du where u =3D d2y
+% y needs: x1,x2  d2x1,d2x2(relative), d2(x1+y),d2(x2+y)(absolute) =20
+
+Cxtemp =3D [1 0 0 0;
+         0 1 0 0];     % x1,x2 portion of C
+
+Cd2xtemp =3D [A(3,:);
+           A(4,:)];  % d2x1,d2x2(relative/absolute) portions of C
+
+Dutemp =3D [B(3,:);
+         B(4,:)];    % d2(x1+y),d2(x2+y)(absolute) portion of D
+    =20
+C =3D [Cxtemp; Cd2xtemp; Cd2xtemp];
+D =3D [0 0 0 0 Dutemp']';
+
+% size(x);
+
+% temp =3D C*x;
+% size(temp)
+
+y =3D C*x + D.*(C*x);       % Need to change D.*(C*x) to D*d2y
+
+plot(t,y);
+legend('x1','x2','rel d2x1','rel d2x2','abs d2x1','abs d2x2');
+xlabel('t'); ylabel('y');=20
+
+end
+##### SOURCE END #####
+--></body></html>
+------MultipartBoundary--Rpx4a5tDFj5u5bktkReqgCyNrRGo5Xn0Sv20XQsJdo------
